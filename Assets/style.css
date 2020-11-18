@@ -66,3 +66,9 @@ h2 {
     background: rgb(255, 255, 255);
     border-radius: 30px;
 }
+
+.btn:hover {
+    cursor: pointer;
+    box-shadow: 5px 10px black;
+}
+
