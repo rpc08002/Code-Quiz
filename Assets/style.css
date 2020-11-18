@@ -72,3 +72,8 @@ h2 {
     box-shadow: 5px 10px black;
 }
 
+.btn[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
