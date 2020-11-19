@@ -11,3 +11,38 @@ body {
     background:rgb(83, 219, 219);
     color: rgb(0, 0, 0);
 }
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 5px black;
+    transform: scale(1.02);
+    transform: 100ms;
+}
+
+.choice-prefix {
+    padding: 2rem 2.5rem;
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+}
+
+.correct {
+    background: linear-gradient(limegreen);
+}
+
+.incorrect {
+    background: red;
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between; /* Pushes the contents out to the edge */
+}
+
+@media screen and (max-width: 768px) {
+    .choice-container{
+        min-width: 40rem;
+    }
+}
