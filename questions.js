@@ -44,3 +44,13 @@ let questions = [
         answer: 4
     }
 ]
+
+const SCORE_POINTS = 100
+const MAX_QUESTIONS = 4
+
+startGame = () => {
+    questionCounter = 0;
+    score = 0;
+    availableQuestions = [...questions]
+    getNewQuestions()
+}
