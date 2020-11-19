@@ -41,6 +41,30 @@ body {
     justify-content: space-between; /* Pushes the contents out to the edge */
 }
 
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text {
+    text-align: center;
+}
+
+#progessBar {
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid greenyellow;
+    margin-top: 2rem;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#progressBarFull {
+    height: 100%;
+    background: greenyellow;
+    width: 0%;
+}
+
 @media screen and (max-width: 768px) {
     .choice-container{
         min-width: 40rem;
