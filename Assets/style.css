@@ -63,17 +63,23 @@ h2 {
     margin-bottom: 1rem;
     text-decoration: none;
     color: rgb(28, 26, 26);
-    background: rgb(255, 255, 255);
+    background: rgb(47, 211, 240);
     border-radius: 30px;
 }
 
 .btn:hover {
     cursor: pointer;
-    box-shadow: 5px 10px black;
+    box-shadow: 5px 10px black; 
+    transition: transform 150ms;
+    transform: scale(1.03);
 }
 
 .btn[disabled]:hover {
     cursor: not-allowed;
     box-shadow: none;
     transform: none;
+}
+
+#highscore-btn{
+    background-color: palegreen;
 }
