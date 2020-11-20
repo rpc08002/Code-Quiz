@@ -21,11 +21,13 @@ body {
 
 .choice-prefix {
     padding: 2rem 2.5rem;
+    font-size: 2rem;
 }
 
 .choice-text {
     padding: 2rem;
     width: 100%;
+    font-size: 2rem;
 }
 
 .correct {
