@@ -101,7 +101,14 @@ choices.forEach(choice => {
         setTimeout( () => {
             selectedChoice.parentElement.classList.remove(classToApply)
             getNewQuestion()
-            
+
         }, 1000)
     })
 })
+
+incrementScore = num => {
+    score +=num;
+    scoreText.innerText = score;
+}
+
+startGame()
