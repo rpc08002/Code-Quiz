@@ -12,36 +12,36 @@ let availableQuestions = []
 
 let questions = [
     {
-        question: 'What is 2 + 2?',
-        choice1: '2',
-        choice2: '4',
-        choice3: '21',
-        choice4: '17',
+        question: 'Which of the following is not JavaScript Data Types?',
+        choice1: 'Undefined',
+        choice2: 'Number',
+        choice3: 'Boolean',
+        choice4: 'Float',
+        answer: 4,
+    },
+    {
+        question: 'Which of them is not the looping structures in JavaScript?',
+        choice1: 'for',
+        choice2: 'while',
+        choice3: 'forwhich',
+        choice4: 'dowhile',
+        answer: 2
+    },
+    {
+        question: 'What are the types of Pop up boxes available in JavaScript?',
+        choice1: 'Alert',
+        choice2: 'Prompt',
+        choice3: 'Confirm',
+        choice4: 'All of the above',
         answer: 4
     },
     {
-        question: 'What is 2 + 2?',
-        choice1: '2',
-        choice2: '4',
-        choice3: '21',
-        choice4: '17',
-        answer: 4
-    },
-    {
-        question: 'What is 2 + 2?',
-        choice1: '2',
-        choice2: '4',
-        choice3: '21',
-        choice4: '17',
-        answer: 4
-    },
-    {
-        question: 'What is 2 + 2?',
-        choice1: '2',
-        choice2: '4',
-        choice3: '21',
-        choice4: '17',
-        answer: 4
+        question: 'Which company developed JavaScript?',
+        choice1: 'Netscape',
+        choice2: 'Bell Labs',
+        choice3: 'Sun Microsystems',
+        choice4: 'IBM',
+        answer: 1
     }
 ]
 
