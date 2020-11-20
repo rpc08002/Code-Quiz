@@ -94,6 +94,14 @@ choices.forEach(choice => {
             incrementScore(SCORE_POINTS)
         }
 
-        selectedChoice
+
+        selectedChoice.parentElement.classList.add(classToApply)
+        
+        // Whenever we click on an answer, right or wrong, it will have time to show us
+        setTimeout( () => {
+            selectedChoice.parentElement.classList.remove(classToApply)
+            getNewQuestion()
+            
+        }, 1000)
     })
 })
