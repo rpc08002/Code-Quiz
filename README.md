@@ -20,5 +20,20 @@ The following screenshots show the homepage, game, and highscore screens:
 ## Features:
 * Three HTML Pages
   * Index.html
-    * Contains homepage with links to game or high score list.
-    *
+  * Game.html
+  * Highscores.html
+
+* Three JavaScript Pages
+  * Questions.js
+  * Highscores.js
+  * End.js
+
+* Three CSS sheets
+  * Style.css
+  * Highscore.css
+  * Game.css
+
+* Utilized Font Awesome for icons and Google Fonts for writing style.
+
+## Authors
+* Ryan Curtin
