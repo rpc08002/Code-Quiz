@@ -18,10 +18,10 @@
     <div class="container">
         <div id="end" class="flex-center flex-column">
             <h1 id="finalScore">0</h1>
-            <form class="end-form-container" onsubmit="saveHighScore()">
+            <form class="end-form-container">
                 <h2 id="end-text">Enter Your Name</h2>
-                <input type="text" name="name" id="username" placeholder="Enter Your Name">
-                <button class="btn" id="saveScoreBtn" type="submit">Save</button>
+                <input type="text" name="name" id="username" placeholder="Enter your name">
+                <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>Save</button>
             </form>
             <!-- Links to Home Page or to Play Again -->
             <a href="game.html" class="btn">Play Again</a>
