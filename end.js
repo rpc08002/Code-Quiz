@@ -1,10 +1,11 @@
+// Declaring constant variables using query selectors to target classes and IDs
 const username = document.querySelector('#username');
 const saveScoreBtn = document.querySelector('#saveScoreBtn');
-const finalScore = document.querySelector('#finialScore');
+const finalScore = document.querySelector('#finalScore');
 const mostRecentScore = document.querySelector('mostRecentScore');
-
+// Parses score from string into object
 const highScores = JSON.parse(localStorage.getItem('highScores')) || []
-
+// Maximum list of high scores is 5
 const MAX_HIGH_SCORES = 5
 
 finalScore.InnerText = mostRecentScore
@@ -13,7 +14,7 @@ finalScore.InnerText = mostRecentScore
 username.addEventListener('keyup', () => {
     saveScoreBtn.disabled = !username.value
 })
-
+// Function to save high score and prevent default screen when form is submitted
 saveHighscore = e => {
     e.preventDefault()
 
