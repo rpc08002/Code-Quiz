@@ -1,14 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Responsive layout meta tag-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Title of Web Page -->
+    <title>Game Over</title>
+    <!-- Links to main style sheet -->
     <link rel="stylesheet" href="Assets/style.css">
+    <!-- Links to Font Awesome for Icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
     integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
 <body>
+    <!-- Container for Score, names, and buttons -->
     <div class="container">
         <div id="end" class="flex-center flex-column">
             <h1 id="finalScore">0</h1>
@@ -17,10 +23,12 @@
                 <input type="text" name="name" id="username" placeholder="Enter Your Name">
                 <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)">Save</button>
             </form>
+            <!-- Links to Home Page or to Play Again -->
             <a href="game.html" class="btn">Play Again</a>
             <a href="index.html" class="btn">Go Home</a>
         </div>
     </div>
+    <!-- Links to JavaScript -->
     <script src="end.js"></script>
 </body>
 </html>
