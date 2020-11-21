@@ -14,9 +14,10 @@ The questions are built in an array and correct answers will increase the score 
 
 
 ## Mock-Up
-
 The following screenshots show the homepage, game, and highscore screens:
 
+![CodeQuiz](Assets/homepage.png) ![CodeQuiz](Assets/game.png)
+![CodeQuiz](Assets/highscore.png)
 
 [demo]: 
 
