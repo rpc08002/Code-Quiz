@@ -9,10 +9,6 @@ The multiple choice quiz runs on HTML, CSS, and JavaScript to provide the user m
 
 The questions are built in an array and correct answers will increase the score by 100.  There are 4 questions overall, each with 4 multiple choices.  At the end of the game, the user inputs their name that saves to local storage.  Media queries were utilized within the game to provide a responsive layout.  Test your knowledge here: [JavaScript Quiz!][demo]
 
-
-## Acceptance Criteria
-
-
 ## Mock-Up
 The following screenshots show the homepage, game, and highscore screens:
 
