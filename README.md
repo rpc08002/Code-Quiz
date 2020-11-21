@@ -17,3 +17,8 @@ The following screenshots show the homepage, game, and highscore screens:
 
 [demo]: https://rpc08002.github.io/Code-Quiz/
 
+## Features:
+* Three HTML Pages
+  * Index.html
+    * Contains homepage with links to game or high score list.
+    *
