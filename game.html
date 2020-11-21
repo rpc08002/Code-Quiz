@@ -3,15 +3,21 @@
 
 <head>
     <meta charset="UTF-8">
+    <!-- Repsonsive Layout Meta Tag -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Title of Web Page -->
     <title>JavaScript | Quiz</title>
+    <!-- Link to Main Styling Sheet -->
     <link rel="stylesheet" href="Assets/style.css">
+    <!-- Link to Game Styling Sheet -->
     <link rel="stylesheet" href="Assets/game.css">
+    <!-- Link to Font Awesome for Icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
     integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
 
 <body>
+    <!-- Container for questions, progress bar, and score -->
     <div class="container">
         <div id="game" class="justiify-center flex-column">
             <div id="hud">
@@ -32,6 +38,7 @@
                     </h1>
                 </div>
             </div>
+            <!-- Question layout using data numbers for reference points -->
             <h1 id="question">What is the answer to this question?</h1>
             <div class="choice-container">
                 <p class="choice-prefix">A.</p>
@@ -51,6 +58,7 @@
             </div>
         </div>
     </div>
+    <!-- Link to Questions JavaScript -->
     <script src="questions.js"></script>
 
 </body>
