@@ -19,5 +19,5 @@ The following screenshots show the homepage, game, and highscore screens:
 ![CodeQuiz](Assets/homepage.png) ![CodeQuiz](Assets/game.png)
 ![CodeQuiz](Assets/highscore.png)
 
-[demo]: 
+[demo]: https://rpc08002.github.io/Code-Quiz/
 
